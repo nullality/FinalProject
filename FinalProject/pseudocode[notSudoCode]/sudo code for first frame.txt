@@ -1,0 +1,51 @@
+body **random image each load - specific images I'll set aside.
+    header transparent w border && margin bottom++ && **will float above even if the page is larger then the frame.
+           div transparent
+               img float left ##
+               AXN float left ##
+               Page Title float left ##
+               divider float right
+               search prompt float right && **Search entire site
+               icon float right > go to social site
+               icon float right > go to social site
+               icon float right > go to social site
+               icon float right > go to social site
+               icon float right > go to social site
+           /div
+      /header
+      div transparent w border
+           div **clickable && transparent
+               nav transparent **hidden/collapse until click above
+                   button = home > go to home page
+                   button = code > go to code page
+                   button = design > go to design page
+                   button = art > go to art page
+                   button = resume > go to resume page
+                   buton = contact > go to contact page
+               /nav
+           /div
+      /div
+      div transparent w border && margin bottom++ && margin bottom++
+           div less transparent && margin top++
+               img
+               divider
+               h1 text
+               p text
+           /div
+           div less transparent && margin top++
+               img icon
+               h2 text
+               div dark transparent && **carousel properties && margin bottom++
+                   carousel **left button && pull from IG
+                   carousel **img stream && pull from IG
+                   carousel **right button && pull from IG
+               /div
+          /div
+      /div
+
+      footer inset && background red
+           h3 text float left
+           h3 text float right
+      /footer
+/body
+    
