@@ -1,6 +1,6 @@
 //make array with image files
-var images = ["'images/1.jpg'", "'images/2.jpg'", 
-"'images/3.jpg'", "'images/4.jpg'", "'images/5.jpg'"];
+var images = ["'./images/1.jpg'", "'./images/2.jpg'", 
+"'./images/3.jpg'", "'./images/4.jpg'", "'./images/5.jpg'"];
 //math variable to determine bg image # to choose
 var choosebg = Math.floor(Math.random() * images.length);
 
